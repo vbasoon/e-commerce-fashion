@@ -1,0 +1,14 @@
+@media (max-width: 1920px) {
+  .home {
+    &-slider {
+      &__item {
+        margin-left: 0px;
+        .content {
+          position: absolute;
+          top: 50%;
+          left: 3%;
+        }
+      }
+    }
+  }
+}

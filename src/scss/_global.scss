@@ -44,4 +44,7 @@ section {
   font-size: 1.7rem;
   cursor: pointer;
   text-decoration: none;
+  &:hover {
+    background: $black;
+  }
 }

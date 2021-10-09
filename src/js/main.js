@@ -16,7 +16,7 @@ document.querySelectorAll(".home__slider img").forEach((images) => {
 });
 
 const swiper = new Swiper(".home-slider", {
-  spaceBetween: 20,
+  //spaceBetween: 20,
   centeredSlides: true,
   loop: true,
   grabCursor: true,
@@ -27,5 +27,9 @@ const swiper = new Swiper(".home-slider", {
   autoplay: {
     delay: 7500,
     disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
   },
 });

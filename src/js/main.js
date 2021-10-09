@@ -1,3 +1,5 @@
+let searchForm = document.querySelector(".search-form");
+
 let menuBtn = document.querySelector("#menu-btn");
 let menuNav = document.querySelector(".header__menu");
 

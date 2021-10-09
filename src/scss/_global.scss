@@ -29,3 +29,19 @@ html {
     border-radius: 5rem;
   }
 }
+
+section {
+  padding: 2rem 9%;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 3rem;
+  border-radius: 0.5rem;
+  background: $red;
+  color: #fff;
+  font-size: 1.7rem;
+  cursor: pointer;
+  text-decoration: none;
+}

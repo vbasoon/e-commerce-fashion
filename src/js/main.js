@@ -15,9 +15,9 @@ document.querySelectorAll(".home__slider img").forEach((images) => {
   };
 });
 
-const swiper = new Swiper(".review-slider", {
+const swiper = new Swiper(".home-slider", {
   spaceBetween: 20,
-  //centeredSlides: true,
+  centeredSlides: true,
   loop: true,
   grabCursor: true,
   pagination: {
@@ -27,16 +27,5 @@ const swiper = new Swiper(".review-slider", {
   autoplay: {
     delay: 7500,
     disableOnInteraction: false,
-  },
-  breakpoints: {
-    0: {
-      slidesPerView: 1,
-    },
-    768: {
-      slidesPerView: 2,
-    },
-    1024: {
-      slidesPerView: 3,
-    },
   },
 });

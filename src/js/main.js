@@ -8,6 +8,11 @@ menuBtn.onclick = () => {
   menuNav.classList.toggle("active");
 };
 
+window.onscroll = () => {
+  menuNav.classList.remove("active");
+  searchForm.classList.remove("active");
+};
+
 document.querySelectorAll(".home__slider img").forEach((images) => {
   images.onclick = () => {
     let src = images.getAttribute("src");

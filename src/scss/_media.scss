@@ -78,6 +78,16 @@
   }
 }
 
+@media (max-width: 652px) {
+  .products {
+    &-box {
+      &__item {
+        width: 100%;
+      }
+    }
+  }
+}
+
 @media (max-width: 450px) {
   html {
     font-size: 50%;
@@ -85,6 +95,18 @@
 
   .title {
     font-size: 3rem;
+  }
+
+  .deal {
+    .image {
+      img {
+        width: 100%;
+      }
+      .content {
+        padding-top: 2rem;
+        text-align: center;
+      }
+    }
   }
 }
 

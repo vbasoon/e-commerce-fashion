@@ -5,10 +5,12 @@
   right: 0;
   z-index: 1000;
   box-shadow: $box-shadow;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2rem 9%;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+  }
   background-color: #fff;
   &__logo {
     //border: 1px solid green;

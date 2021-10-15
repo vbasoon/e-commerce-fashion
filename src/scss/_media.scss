@@ -12,9 +12,25 @@
       }
     }
   }
+  .swiper-button-prev,
+  .swiper-button-next {
+    margin-right: 15.5rem;
+  }
+}
+
+@media (max-width: 1919px) and (min-width: 1441px) {
 }
 
 @media (max-width: 1440px) {
+  .home {
+    &-slider {
+      &__item {
+        .image {
+          object-position: left;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 991px) {

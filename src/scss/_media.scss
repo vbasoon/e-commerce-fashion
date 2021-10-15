@@ -19,6 +19,14 @@
 }
 
 @media (max-width: 1919px) and (min-width: 1441px) {
+  .home {
+    &-slider {
+      &__item {
+        .image {
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 1440px) {
@@ -26,7 +34,6 @@
     &-slider {
       &__item {
         .image {
-          object-position: left;
         }
       }
     }
